@@ -26,7 +26,8 @@ def Drain_parcer(log_file):
 
 if __name__ == '__main__':
     ls_str = []
-    fileName = '/tmp/pejala_errrorlog_20220822'#自定义修改
+    fileName = 'ejunlebao_2022-08-25.log'#自定义修改  PULL_LOG_DIR+filename
+    Drain_parcer(fileName)
     with open(f'{OUT_CSV_DIR}{fileName}_templates.csv', 'r') as f:
         csvreader = csv.reader(f)
         a = next(csvreader)
