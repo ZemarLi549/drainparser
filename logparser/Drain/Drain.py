@@ -1,9 +1,3 @@
-"""
-Description : This file implements the Drain algorithm for log parsing
-Author      : LogPAI team
-License     : MIT
-"""
-
 import re
 import os
 import numpy as np
